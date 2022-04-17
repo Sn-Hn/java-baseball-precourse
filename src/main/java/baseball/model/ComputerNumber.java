@@ -12,7 +12,7 @@ public class ComputerNumber {
   private static final int START_NUMBER = 1;
   private static final int END_NUMBER = 9;
 
-  public List<Integer> createNumber() {
+  public List<Integer> createNumbers() {
     Set<Integer> computerNumbers = new LinkedHashSet<>();
     while (computerNumbers.size() < MAX_NUMBER_LENGTH) {
       int pickNumber = pickNumber();
